@@ -563,6 +563,207 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/02/sincostan/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Victor">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/weide.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="godspysonyou">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/02/02/sincostan/" itemprop="url">K-Nearest Neighbors</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-02T18:30:00+08:00">
+                2018-02-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/machine-learning/" itemprop="url" rel="index">
+                    <span itemprop="name">machine learning</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="三角函数公式推导"><a href="#三角函数公式推导" class="headerlink" title="三角函数公式推导"></a>三角函数公式推导</h1><h2 id="1-定义"><a href="#1-定义" class="headerlink" title="1 定义"></a>1 定义</h2><p>设角$\alpha$的终边与单位圆交于点$P(x,y)$，则有</p>
+<p>$\sin\alpha=y,\cos\alpha=x$</p>
+<p>$\tan\alpha=\frac{y}{x},\cot\alpha=\frac{x}{y}$</p>
+<p>$\sec\alpha=\frac{1}{x},\csc\alpha=\frac{1}{y}$</p>
+<h2 id="2-同角三家函数基本关系"><a href="#2-同角三家函数基本关系" class="headerlink" title="2 同角三家函数基本关系"></a>2 同角三家函数基本关系</h2><p>由上述定义可以得到三个倒数关系式：</p>
+<p>$\tan\alpha\cot\alpha=1$</p>
+<p>$\sin\alpha\csc\alpha=1$</p>
+<p>$\cos\alpha\sec\alpha=1$</p>
+<p>还可以得到如下商的关系：</p>
+<p>$\frac{\sin\alpha}{\cos\alpha}=\tan\alpha=\frac{\sec\alpha}{\csc\alpha}$</p>
+<p>$\frac{\cos\alpha}{\sin\alpha}=\cot\alpha=\frac{\csc\alpha}{\sec\alpha}$</p>
+<p>结合勾股定理，得：</p>
+<p>$\sin^2\alpha+\cos^2\alpha=1$</p>
+<h2 id="3-特殊值"><a href="#3-特殊值" class="headerlink" title="3 特殊值"></a>3 特殊值</h2><p><img src="http://wx3.sinaimg.cn/mw690/0066k4u8ly1fx0x91sd2nj30ex0h7dms.jpg" alt="特殊值"></p>
+<h2 id="4-诱导公式"><a href="#4-诱导公式" class="headerlink" title="4 诱导公式"></a>4 诱导公式</h2><p>首先熟悉三个基本三函数$\sin和\cos和\tan$的性质</p>
+<ul>
+<li>正弦函数是奇函数，最小正周期为2π，其导函数为余弦函数；</li>
+<li>余弦函数是偶函数，最小正周期为2π，其导数为正弦函数的相反数；</li>
+<li>正切函数是奇函数，最小正周期为π。</li>
+</ul>
+<p>$\frac{k\pi}{2}+\alpha$</p>
+<p><strong>奇变偶不变，符号看象限</strong></p>
+<h2 id="5-基本公式"><a href="#5-基本公式" class="headerlink" title="5 基本公式"></a>5 基本公式</h2><p>推导由来：</p>
+<p>平面上的两个单位向量，与x轴正向夹角分别为x和y，则这两个向量分别为$(\cos x,\sin x),(\cos y,\sin y)$。则这两个响亮的点积为$\cos x\cos y+\sin x\sin y$，而点积又可以表示为$1<em>1</em>cos(x-y)$，于是得到如下公式：</p>
+<p>$\cos (x-y)=\cos x\cos y+\sin x\sin y \qquad(1)$</p>
+<h2 id="6-和差角公式"><a href="#6-和差角公式" class="headerlink" title="6 和差角公式"></a>6 和差角公式</h2><p>将(1)中的$y$用$-y$代入，即可得到</p>
+<p>$\cos(x+y)=\cos x\cos y-\sin x\sin y \qquad(2)$</p>
+<p>将(1)中的$x$用$\frac{\pi}{2}-x$代入，利用诱导公式，可以得到正弦函数的和差角公式：</p>
+<p>$\sin(x+y)=\cos y\sin x+\cos x\sin y \qquad(3)$</p>
+<p>(3)式中的$y$用$-y$代替，有</p>
+<p>$\sin(x-y)=\cos y\sin x-\cos x\sin y \qquad(4)$</p>
+<p>(3)/(2),(4)/(1),得到正切函数的和差角公式：</p>
+<p>$\tan(x+y)=\frac{\tan x+\tan y}{1-\tan x\tan y} \qquad(5)$</p>
+<p>$\tan(x-y)=\frac{\tan x-\tan y}{1+\tan x\tan y} \qquad(6)$</p>
+<h2 id="7-倍角公式和半角公式"><a href="#7-倍角公式和半角公式" class="headerlink" title="7 倍角公式和半角公式"></a>7 倍角公式和半角公式</h2><p>在标题<strong>6</strong>中提到的式子，令$x=y$，很容易得到倍角公式和半角公式：</p>
+<p>$\sin 2x=2\sin x\cos x \qquad(7)$</p>
+<p>$\cos 2x=\cos^2 x-\sin^2 x \qquad(8)$</p>
+<p>$\tan 2x=\frac{2\tan x}{1-\tan^2 x} \qquad(9)$</p>
+<p>注意到(8)式中，由平方关系又可以改写成$\cos 2x=2\cos^2 x-1或\cos 2x=1-\sin^2 x$。所以可以直接得到半角公式：</p>
+<p>$\sin^2\frac{x}{2}=\frac{1-\cos x}{2} \qquad(10)$</p>
+<p>$\cos^2\frac{x}{2}=\frac{1+\cos x}{2} \qquad(11)$</p>
+<p>$\tan^2\frac{x}{2}=\frac{1-\cos x}{1+\cos x} \qquad(12)$</p>
+<h2 id="8-积化和差与和差化积"><a href="#8-积化和差与和差化积" class="headerlink" title="8 积化和差与和差化积"></a>8 积化和差与和差化积</h2><p>(3)+(4)得：</p>
+<p>$\sin x\cos y=\frac{1}{2}[\sin(x+y)+sin(x-y)] \qquad(13)$</p>
+<p>(3)-(4)得：</p>
+<p>$\cos x\sin y=\frac{1}{2}[\sin(x+y)-\sin(x-y)] \qquad(14)$</p>
+<p>(1)+(2)得：</p>
+<p>$\cos x\cos y=\frac{1}{2}[\cos(x+y)+\cos(x-y)] \qquad(15)$</p>
+<p>(1)-(2)得：</p>
+<p>$\sin x\sin y=\frac{1}{2}[\cos(x-y)-\cos(x+y)] \qquad(16)$</p>
+<p>然后再上式中，令$u=x+y,v=x-y$,此时$x=\frac{u+v}{2},y=\frac{u-v}{2}$,得到和差化积公式：</p>
+<p>$\sin u+\sin v=2\sin\frac{u+v}{2}\cos\frac{u-v}{2} \qquad(17)$</p>
+<p>$\sin u-\sin v=2\cos\frac{u+v}{2}\sin\frac{u-v}{2} \qquad(18)$</p>
+<p>$\cos u+\cos v=2\cos\frac{u+v}{2}\cos\frac{u-v}{2} \qquad(19)$</p>
+<p>$\cos u-\cos v=-2\sin\frac{u+v}{2}\sin\frac{u-v}{2} \qquad(20)$</p>
+<h2 id="9-万能公式"><a href="#9-万能公式" class="headerlink" title="9 万能公式"></a>9 万能公式</h2><p>万能公式是将$\sin x,\cos x和\tan x$均用$\tan\frac{x}{2}$表示。因为$\tan\frac{x}{2}$的值域为整个实数空间，所以方便考察</p>
+<p>余弦函数的万能公式：</p>
+<p>$\cos x=\frac{1-\tan^2\frac{x}{2}}{1+\tan^2\frac{x}{2}} \qquad(21)$</p>
+<p>$\sin x=\frac{2\tan x}{1-\tan^2 x} \qquad(22)$</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/02/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -728,7 +929,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
