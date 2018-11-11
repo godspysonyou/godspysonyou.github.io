@@ -33,39 +33,18 @@
   </entry>
   
   <entry>
-    <title>K-Nearest Neighbors</title>
-    <link href="http://yoursite.com/2018/05/02/postName/"/>
-    <id>http://yoursite.com/2018/05/02/postName/</id>
-    <published>2018-05-02T06:30:02.000Z</published>
-    <updated>2018-05-03T03:17:18.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="machine learning" scheme="http://yoursite.com/categories/machine-learning/"/>
-    
-    
-      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
-    
-  </entry>
-  
-  <entry>
     <title>三角函数公式</title>
     <link href="http://yoursite.com/2018/02/02/sincostan/"/>
     <id>http://yoursite.com/2018/02/02/sincostan/</id>
     <published>2018-02-02T10:30:00.000Z</published>
-    <updated>2018-11-10T03:09:39.000Z</updated>
+    <updated>2018-11-11T12:07:07.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;三角函数公式推导&quot;&gt;&lt;a href=&quot;#三角函数公式推导&quot; class=&quot;headerlink&quot; title=&quot;三角函数公式推导&quot;&gt;&lt;/a&gt;三角函数公式推导&lt;/h1&gt;&lt;h2 id=&quot;1-定义&quot;&gt;&lt;a href=&quot;#1-定义&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;三角函数公式推导&quot;&gt;&lt;a href=&quot;#三角函数公式推导&quot; class=&quot;headerlink&quot; title=&quot;三角函数公式推导&quot;&gt;&lt;/a&gt;三角函数公式推导&lt;/h1&gt;&lt;h2 id=&quot;1-定义&quot;&gt;&lt;a href=&quot;#1-定义&quot; class=&quot;headerlink&quot; title=&quot;1 定义&quot;&gt;&lt;/a&gt;1 定义&lt;/h2&gt;&lt;p&gt;设角$\alpha$的终边与单位圆交于点$P(x,y)$，则有&lt;/p&gt;
+&lt;p&gt;$\sin\alpha=y,\cos\alpha=x$&lt;/p&gt;
+&lt;p&gt;$\tan\alpha=\frac{y}{x},\cot\alpha=\frac{x}{y}$&lt;/p&gt;
+&lt;p&gt;$\sec\alpha=\frac{1}{x},\csc\alpha=\frac{1}{y}$&lt;/p&gt;
     
     </summary>
     
