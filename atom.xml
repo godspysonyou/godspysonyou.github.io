@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-26T06:21:58.000Z</updated>
+  <updated>2018-11-28T02:29:12.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>神经网络</title>
+    <link href="http://yoursite.com/2018/02/03/nnetwork/nnetwork/"/>
+    <id>http://yoursite.com/2018/02/03/nnetwork/nnetwork/</id>
+    <published>2018-02-03T10:30:00.000Z</published>
+    <updated>2018-11-28T02:29:12.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;简单神经网络&quot;&gt;&lt;a href=&quot;#简单神经网络&quot; class=&quot;headerlink&quot; title=&quot;简单神经网络&quot;&gt;&lt;/a&gt;简单神经网络&lt;/h1&gt;&lt;p&gt;参考《深度学习入门》，目的巩固和提升，以及便于日后的查询。&lt;/p&gt;
+&lt;h2 id=&quot;1-感知机&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="machinelearning" scheme="http://yoursite.com/categories/machinelearning/"/>
+    
+    
+      <category term="machinelearning" scheme="http://yoursite.com/tags/machinelearning/"/>
+    
+  </entry>
   
   <entry>
     <title>三角函数公式</title>
