@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-28T02:29:12.000Z</updated>
+  <updated>2018-11-28T02:32:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,18 @@
     <link href="http://yoursite.com/2018/02/03/nnetwork/nnetwork/"/>
     <id>http://yoursite.com/2018/02/03/nnetwork/nnetwork/</id>
     <published>2018-02-03T10:30:00.000Z</published>
-    <updated>2018-11-28T02:29:12.000Z</updated>
+    <updated>2018-11-28T02:32:40.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;简单神经网络&quot;&gt;&lt;a href=&quot;#简单神经网络&quot; class=&quot;headerlink&quot; title=&quot;简单神经网络&quot;&gt;&lt;/a&gt;简单神经网络&lt;/h1&gt;&lt;p&gt;参考《深度学习入门》，目的巩固和提升，以及便于日后的查询。&lt;/p&gt;
-&lt;h2 id=&quot;1-感知机&quot;&gt;&lt;a
-        
-      
+      &lt;h1 id=&quot;简单神经网络&quot;&gt;&lt;a href=&quot;#简单神经网络&quot; class=&quot;headerlink&quot; title=&quot;简单神经网络&quot;&gt;&lt;/a&gt;简单神经网络&lt;/h1&gt;&lt;p&gt;参考《深度学习入门》，目的巩固和提升，以及便于日后的查询。&lt;/p&gt;
+&lt;h2 id=&quot;1-感知机&quot;&gt;&lt;a href=&quot;#1-感知机&quot; class=&quot;headerlink&quot; title=&quot;1 感知机&quot;&gt;&lt;/a&gt;1 感知机&lt;/h2&gt;&lt;h3 id=&quot;1-1-什么是感知机&quot;&gt;&lt;a href=&quot;#1-1-什么是感知机&quot; class=&quot;headerlink&quot; title=&quot;1.1 什么是感知机&quot;&gt;&lt;/a&gt;1.1 什么是感知机&lt;/h3&gt;&lt;p&gt;感知机算法是美国学者Frank Rosenblatt在1957年提出来的。它很重要，是神经网络（深度学习）的起源。&lt;/p&gt;
+&lt;p&gt;感知机接受多个信号输出一个信号，如图1-1：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://wx2.sinaimg.cn/mw690/0066k4u8ly1fxfmp1l4m8j30fw05oq34.jpg&quot; alt=&quot;感知机&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;strong&gt;图1-1&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;用数学式子来表示：&lt;br&gt;$$y = \begin{cases} 0 \quad(w_{1}x_{1}+w_{2}x_{2}\leq\theta) \&lt;br&gt;1 \quad(w_{1}x_{1}+w_{2}x_{2}&amp;gt;\theta)\end{cases} \qquad(1.1)$$&lt;/p&gt;
+&lt;p&gt;感知机的国歌输入信号都有各自固有的权重，这些权重发挥着控制各个信号的作用。&lt;br&gt;
     
     </summary>
     
